@@ -1,0 +1,21 @@
+@use 'variables.scss' as variables;
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+body {
+	font-family: variables.$font-family;
+	font-size: 1.6rem;
+	color: black;
+}
+
+.container {
+}
